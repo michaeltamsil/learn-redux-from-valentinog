@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import store from './store';
-import App from './components/App.jsx';
+import store from './js/store';
+import App from './js/components/App';
 
 // if you're in create-react-app import the files as:
 // import store from "./js/store/index";
@@ -13,5 +13,4 @@ render(
         <App />
     </Provider>,
     document.getElementById('root')
-)
-import index from './js';
+);
